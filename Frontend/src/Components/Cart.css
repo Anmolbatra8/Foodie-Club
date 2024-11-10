@@ -1,0 +1,64 @@
+.empty-cart {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    animation: fadeIn 0.5s ease-in-out;
+}
+.dish-name {
+    text-decoration: none;
+}
+.cart-container {
+    width: 100%;
+    height: 60%;
+    border: 2px solid blueviolet;
+    text-align: center;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+.cart-list {
+    list-style-type: none;
+    font-weight: 100;
+}
+
+.empty-cart h2 {
+    font-size: 2rem;
+    color: #FF6347;
+    margin-bottom: 10px;
+}
+
+.empty-cart p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.explore-button {
+    background-color: #FF6347;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #FF4500;
+}
+
+/* Optional animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.proceed-checkout-btn {
+    background-color: black;
+    color: white;
+    
+}
+.proceed-checkout-btn:hover {
+cursor: pointer;
+}

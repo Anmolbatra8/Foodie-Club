@@ -1,0 +1,113 @@
+.restaurant-menu {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.restaurant-image {
+    width: 50%;
+    height: 50%;
+    border-radius: 8px;
+     
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+}
+.meu-item-text {
+    font-family: MS;
+    color:#E23744;
+    text-decoration: underline;
+}
+.menu-item:hover {
+    background-color: #f9f9f9;
+}
+
+.dish-details {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.dish-name {
+    font-weight: bold;
+}
+
+.dish-price {
+    color: #555;
+}
+
+.dish-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.add-to-cart,
+.remove-from-cart {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 2px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+
+.remove-from-cart {
+    background-color: #f44336; /* Red */
+}
+
+.remove-from-cart:hover {
+    background-color: #e53935;
+}
+
+.cart-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+.cart-confirm-popup h3,
+.cart-confirm-popup p {
+    color: white;
+    font-size: 1.5rem;
+}
+.cart-confirm-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     background-color: red;
+     
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+.cart-confirm-popup button {
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+
+
+}

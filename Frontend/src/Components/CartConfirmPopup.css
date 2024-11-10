@@ -1,0 +1,88 @@
+/* CartConfirmationPopup.css */
+
+/* Overlay that dims the background */
+.popup-overlay {
+    position: fixed;
+    top: 50%;
+    bottom: 50%; background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  /* Main popup box */
+  .popup {
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    padding: 5%;
+    max-width: 80%;
+    /* position: fixed;
+    top: 50%;
+    bottom: 50%; */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    animation: fadeIn 0.3s ease; /* Optional: fade-in animation */
+  }
+  
+  /* Popup header */
+  .popup h3 {
+    margin-top: 0;
+    color: white;   }
+  
+  /* Point of CONFLICT */
+  .popup p {
+    color:black;
+    margin: 5% 0%;
+  }
+  
+  /* Button container */
+  .popup-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  /* Cancel button styling */
+  .cancel-button {
+    background-color: transparent;
+    border: 1px solid #4caf50; /* Green border */
+    color: #4caf50;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e8f5e9; /* Light green on hover */
+  }
+  
+  /* Confirm button styling */
+  .confirm-button {
+    background-color: #4caf50; /* Green background */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .confirm-button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
