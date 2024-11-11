@@ -8,7 +8,7 @@ import './index.css';
 import App from './App';
 import About from './Components/About';
 import Contact from './Components/Contact';
-import Profile from './Components/Profile';
+
 
 //idk why these are here:
 import reportWebVitals from './reportWebVitals';
@@ -38,15 +38,7 @@ const appRoute = createBrowserRouter([
     ,{
       path:"/about",
       element: <About /> ,
-  //every parent has to have outline to implement child routes
-
-      children : [
-        {
-          //children of /about
-          path: "profile" ,
-          element: <Profile />
-        }
-      ]
+  
 
     } ,{
       path:"/contact",
