@@ -3,8 +3,7 @@ import RestaurantCard from "./RestaurantCard";
 import { useState,useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useOnline } from "../Hooks/useOnline";
-import Checkclass from "./Checkclass";
-import Checkfunction from "./Checkfunction";
+
 import RestaurantMenu from "./RestaurantMenu";
 
 // const restaurant_details = [
