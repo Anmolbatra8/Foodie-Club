@@ -2,24 +2,29 @@
   "version": 2,
   "name": "khane-ka-shauk",
   "builds": [
-    { 
-      "src": "frontend/package.json", 
-      "use": "@vercel/static-build", 
-      "config": { 
-        "distDir": "build" 
-      } 
+    {
+      "src": "Frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    },
+    {
+      "src": "Backend/server.js",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
-    { 
-      "src": "/(restaurants|users)(.*)", 
-      "dest": "https://foodie-club-backend.onrender.com$1$2" 
+    {
+      "src": "/(restaurants|users)(.*)",
+      "dest": "https://foodie-club-backend.onrender.com$1$2"
     },
-    { 
-      "src": "/(.*)", 
-      "dest": "frontend/build/$1" 
+    {
+      "src": "/(.*)",
+      "dest": "Frontend/build/$1"
     }
-  ]
-  ,
+  ] , 
+  
   "rewrites": [{ "source": "/(.*)", "destination": "/" }] 
+
 }
