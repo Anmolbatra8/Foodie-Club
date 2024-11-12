@@ -20,8 +20,8 @@ const Header = () => {
     return (
     <div className="header">
          
-         <div className='logo-space'> <Link to='/'> <img className="logo-header" src="https://res.cloudinary.com/dyabjxxzp/image/upload/v1731102761/Khane_Ka_Shauk_text_hsehnq.png" alt="food aggregator logo" /> </Link>
-         <Link to='/'> <h4 className='brand-name'>Khane Ka Shauk..</h4> </Link>
+         <div className='logo-space'> <Link to='/'> <img className="logo-header" src="https://res.cloudinary.com/dyabjxxzp/image/upload/v1731102958/Khane_Ka_Shauk_text__Transparent_seucnc.png" alt="food aggregator logo" /> </Link>
+         <Link to='/'> <p className='brand-name'>Khane Ka Shauk..</p> </Link>
           </div>
           
             {/* https://media.istockphoto.com/id/1138234161/vector/delivery-illustration.jpg?s=612x612&w=0&k=20&c=BXRhh9OYBOEbpfUD9DrO-aOLoyoqyzVj6s2EQyXQYRQ= */}

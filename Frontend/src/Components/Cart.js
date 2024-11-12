@@ -1,12 +1,12 @@
 import './Cart.css';
-import { useNavigate } from "react-router-dom";
+import { useNavigate ,useLocation} from "react-router-dom";
 import { useContext } from "react";
 import { CartContext } from "../contexts/CartContext";
 const Cart = () => {
+    
      const {cart,addToCart,removeFromCart,calculateTotalPrice} = useContext(CartContext);
      const navigate = useNavigate();
-     const restaurant_id = cart[0].resid || null;
-     
+    
 
     // const calculateTotalPrice = () => {
 
@@ -22,6 +22,7 @@ const Cart = () => {
          {cart.length > 0 ? (
                 <>
                  <div className='cart-container'>
+                    <h4>Restaurant Name: </h4>
                     <ol className='cart-list'>
                         {cart.map((item, index) => (
                             <li className="dish-name"  key={index}>{item.dishName} : Rs. {item.price}</li>
@@ -74,7 +75,7 @@ const Cart = () => {
             <br />
 
             <button className='proceed-checkout-btn' onClick={()=> {
-                console.log("Restaurant ID: ",restaurant_id );
+                console.log("Proceed To Pay Clicked " );
             }}>Proceed To Payment</button>    
             <br />
             <br />

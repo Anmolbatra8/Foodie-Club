@@ -253,11 +253,11 @@ return(
        showPopup ? <> <CartConfirmationPopup /> </>: <p>Popup Not Required </p>
        }        
 
-        <Link to={'/cart'}  >
+        <Link to={'/cart'} state={restaurant.name} >
         Proceed To Checkout
         </Link>
         {pendingItem ? <p>{pendingItem.dishName} </p> : <p>No Pending Item</p> }
-        <Link to={'/cart'}>
+        <Link to={'/cart'} state={restaurant.name}>
         <StickyCartBar />
         </Link>
              </div>

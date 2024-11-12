@@ -329,7 +329,8 @@ const BodyComponent = () => {
   //GET
   useEffect(() => {
     // Fetch data from the Express server
-    fetch('http://localhost:8000/restaurants')
+    fetch(`${process.env.REACT_APP_BACKEND_URL}/restaurants`)
+
       .then(response => response.json())
       .then(data => { setFilteredRestState(data)
          setAllRestaurants(data)
