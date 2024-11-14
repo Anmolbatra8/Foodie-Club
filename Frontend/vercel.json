@@ -8,23 +8,20 @@
       "config": {
         "distDir": "build"
       }
-    },
-    {
-      "src": "Backend/server.js",
-      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/(restaurants|users)(.*)",
-      "dest": "https://foodie-club-backend.onrender.com$1$2"
+      "src": "/restaurants(.*)",
+      "dest": "https://foodie-club-backend.onrender.com/restaurants$1"
+    },
+    {
+      "src": "/users(.*)",
+      "dest": "https://foodie-club-backend.onrender.com/users$1"
     },
     {
       "src": "/(.*)",
       "dest": "Frontend/build/$1"
     }
-  ] , 
-  
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }] 
-
+  ]
 }
