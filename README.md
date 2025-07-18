@@ -1,5 +1,33 @@
-<h2>KLB</h2>
-# Welcome to Foodie Club Web Application !
-## Are you ready to enjoy some amamzing meals from the restaurants around you ?
-# Welcome to Foodie Club Web Application!
-## Are you ready to enjoy some amazing meals from the restaurants around you?
+<div className="align-center">
+<h1>Welcome To The Foodie Club Web Application !</h1>
+<br />
+<h4>I am Delighted to give you a brief your of the Application. Don't worry won't take much of your time ! </h4>
+<ol>
+<li>The Problem</li>
+<p>My intention with trying to build this was to learn the basic fundamentals of React and learn how to connect multiple pieces together that give birth to a simple application (I mean how to connect database, and backend , how to show data through APIs).
+</p>
+
+<li> Features </li>
+<p>These are the current features of the Foodie Club App, I will try my best to dynamically keep adding more improvised features and ensure it is adaptive to the basic requirements. </p>
+<ul>
+<li>HomePage [Multiple Restaurants Listed]</li>
+<li>Restaurant Page [Menus- Option to Add to Cart - Increase/Decrease Quantity]</li>
+<li>Cart Functionality [Maintainance of cart data - Calculation of Bill - Ability To Edit]</li>
+</ul>
+<li>To Add Next Features: </li>
+<p>To Ensure proper functionality , These features will be added with time :  </p>
+<ul>
+<li>Login Functionality (with google and other Auth providers directly also) </li>
+<li>User Data (Name,email,location,reviews,cartData) and Order history Managment </li>
+<li>Common UI Refinements [The Obvious things which should be there in a functional food ordering APP] </li>
+
+</ul>
+<ol>
+
+<h4>Have a Feedback or Feature Suggestion?  </h4>
+<p> Would Really appreciate your value addition in the project and due credit will be given to you. If you want to suggest any feature , then feel free to write an email to : <a href="emailto:anmolbatra2018@gmail.com"> Here </a>  </p>
+<h5>Lastly Thanks a Lot For your time to read till here. I wish you have a good time ahead :) <h5>
+<p>Best Regards</p>
+<p> <strong><em>Anmol Batra </em> </strong>
+
+</div>
