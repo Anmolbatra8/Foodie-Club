@@ -1,4 +1,4 @@
-Foodie Club 🍔🍕🥗
+#Foodie Club 🍔🍕🥗
 Foodie Club is your go-to app for discovering local restaurants and ordering food for delivery! Browse menus, explore food options, and get your favorite meals delivered right to your door.
 
 Features:
