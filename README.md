@@ -32,7 +32,7 @@
 
 <h4>Have a Feedback or Feature Suggestion?  </h4>
 <br />
-<p> Would Really appreciate your value addition in the project and due credit will be given to you. If you want to suggest any feature , then feel free to write an email  :  <a href="mailto:anmolbatra2018@gmail.com"  target="_blank">Here</a> . We can connect on <a href="https://www.linkedin.com/in/anmolbatra2003" target="_blank">xLinkedIn </a> as well ! </p>
+<p> Would Really appreciate your value addition in the project and due credit will be given to you. If you want to suggest any feature , then feel free to write an email  :  <a href="mailto:anmolbatra2018@gmail.com"  target="_blank">Here</a> . We can connect on <a href="https://www.linkedin.com/in/anmolbatra2003" target="_blank">LinkedIn </a> as well ! </p>
 <br />
 <h5>Lastly Thanks a Lot For your time to read till here. I wish you have a good time ahead :) <h5>
 <p>Best Regards</p>
